@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-	ts = new Date(2018, 1, 25, 8)
+	ts = new Date(2018, 5, 95, 12)
 
 	// if((new Date() > ts)){
 	// 	ts = (new Date()).getTime() + 10*24*60*60*1000;
