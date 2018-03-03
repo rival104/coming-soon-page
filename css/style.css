@@ -237,7 +237,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-size: 100%;
     background: #fff;
-    background: url(../images/background1.jpg)no-repeat center top;
+    background: url(../images/simple.jpg)no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -418,6 +418,10 @@ p {
     background: rgb(202, 173, 30);
 }
 
+.carousel, slide{
+    width: 50%;
+    margin: auto;
+}
 
 /*--//newsletter--*/
 
@@ -715,6 +719,9 @@ p {
     .countMinutes,
     .countSeconds {
         width: 24.5%;
+    }
+    .carousel, slide{
+    display: none;
     }
     .newsletter {
         margin: 1em auto 0;
