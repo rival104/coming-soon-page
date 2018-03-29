@@ -229,6 +229,14 @@ nav.horizontal ul li {
 img {
     max-width: 100%;
 }
+.d-block {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
 
 
 /*--end reset--*/
@@ -258,11 +266,11 @@ body a {
 /*--background--*/
 
 h1 {
-    font-size: 65px;
+    font-size: 40px;
     text-transform: uppercase;
     color: #fff;
-    word-spacing: 26px;
-    margin-bottom: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
 }
 
 p {
@@ -492,6 +500,11 @@ p {
 .w3ls_rss:hover {
     background: #f26522;
     border: 2px solid #f26522;
+}
+
+#comingsoon{
+    font-family: 'Seaweed Script', cursive;
+    font-size: 80px;
 }
 
 
