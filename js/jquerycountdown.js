@@ -30,8 +30,8 @@
 		
 		(function tick(){
 			
-			// Time left
-			left = Math.floor((options.timestamp - (new Date())) / 1000);
+			// Time left, edit this to change countdown
+			left = Math.floor((options.timestamp - (new Date())) / 6);
 			
 			if(left < 0){
 				left = 0;
